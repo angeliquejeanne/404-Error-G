@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
 *{
   font-family: 'Sofia', cursive;
 
@@ -36,13 +37,6 @@
   color: whitesmoke;
   letter-spacing: .8px;
   text-transform: uppercase;
-}
-
-@media only screen and (min-width: 567px) 
-{
-  .over404 header h1 {
-     font-size: 15rem;
-  }
 }
 
 .glitch:before,
@@ -140,6 +134,8 @@
     clip: rect(62px, 9999px, 6px, 0);
   }
 }
+
+/* button retour page d'avant */
 .flexbutton
 {
     margin: auto;
@@ -162,17 +158,43 @@
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  background:#5c5c5c99;
+  background:rgba(92, 92, 92, 0.45);
   font-size: 18px;
   border: none;
   opacity: .45;
-  border:none;
+  border: 1px solid black;
   border-radius:50%;
   padding: .5rem;
   transition: .6s background; 
 }
 .btn:hover
 {
-  background:#5c5c5c;
+  background:#363636;
   opacity: .45;
+}
+
+@media screen and (min-width:320px) {
+    .over404 header h1 {
+        font-size: 4rem;
+     }
+}
+@media screen and (min-width:425px) {
+    .over404 header h1 {
+        font-size: 6rem;
+     }
+}
+@media screen and (min-width:768px) {
+    .over404 header h1 {
+        font-size: 10rem;
+     }
+}
+@media screen and (min-width:1024px) {
+    .over404 header h1 {
+        font-size: 12rem;
+     }
+}
+@media screen and (min-width:1280px) {
+    .over404 header h1 {
+        font-size: 16rem;
+     }
 }
